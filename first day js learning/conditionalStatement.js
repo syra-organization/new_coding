@@ -44,6 +44,8 @@ var num = 10
 // } else {
 //     console.log('given number is odd' , num)
 // }
+// to find the 
 
+// maximum between two numbers 
 
-
+ 
