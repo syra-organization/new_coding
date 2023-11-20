@@ -4,10 +4,10 @@ chem = int(input('Enter chemistry marks: '))
 phy = int(input('Enter physics marks: '))
 computer = int(input('Enter the computer marks: '))
 
-print('student name: ',name)
+print('student name: ', name)
 print('roll no: ', roll_number)
 print('chemistry marks: ', chem)
-print('physics marks: ' ,phy)
+print('physics marks: ', phy)
 print('computer marks: ', computer)
 
 total = chem + phy + computer
