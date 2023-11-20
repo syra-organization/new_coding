@@ -2,25 +2,26 @@
 # key should always should be immutable value
 data = {
     'name': 'Avinash',
-    'hobbie':'sports'
+    'hobbie': 'sports'
 }
 
-print(data['name']) # Avinash
-print(data['hobbie']) # sports
+print(data['name'])  # Avinash
+print(data['hobbie'])  # sports
 
-print(data.get('name')) # Avinash
+print(data.get('name'))  # Avinash
 
-# IF we don't have the key in my object 
+# IF we don't have the key in my object
 
-print(data.get('age','Age is not mentioned')) # it will prints age is not mentioned because we don't have the key age.
+# it will prints age is not mentioned because we don't have the key age.
+print(data.get('age', 'Age is not mentioned'))
 
 # If we want to create a object by using the two arrays
 
-keys = ['name','hobbie']
-values = ['Avinash','sports']
+keys = ['name', 'hobbie']
+values = ['Avinash', 'sports']
 
-obj = dict(zip(keys,values))
-print(obj) # will print the object or dictionary
+obj = dict(zip(keys, values))
+print(obj)  # will print the object or dictionary
 
 # If we want to add a new key or value
 
@@ -35,14 +36,14 @@ print(obj)
 # Nested dictionary
 
 persons = {
-    'person1' : {
-        'name' : 'Avinash',
-        'age' : 25
+    'person1': {
+        'name': 'Avinash',
+        'age': 25
     },
-    'person2' : {
+    'person2': {
         'name': 'Yogesh',
-        'age':25
+        'age': 25
     }
 }
 
-print(persons.get('person1').get('name')) # Avinash
+print(persons.get('person1').get('name'))  # Avinash
