@@ -1,7 +1,7 @@
 // to test a number as how many digits
 var n = 7895;
 var num;
-if (n < 100 && n >= 1) {
+if (n < 100 && n >= 10) {
   console.log("it has two digits numbers");
 } else if (n > 1000 && n >= 100) {
   console.log("it has three digits number");

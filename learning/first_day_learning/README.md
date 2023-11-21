@@ -1,3 +1,61 @@
+# Data types
+```
+1. number
+2. strings
+3. arrays
+4. boolean
+5. objects
+```
+
+# variables
+```
+variables is like box which it can store any kind of values or data types
+
+ex: var num = 10;
+
+- declaration
+   
+   ex: var num;
+
+- assignment 
+
+   ex: var num;
+       
+       num = 10 
+
+- reassigning
+    
+    ex: var num = 10;
+        
+        num = num + 2;
+
+```
+
+# Mathematical operators
+
+```
+1. Additions (+)
+2. Subraction (-)
+3. Divistion (/)
+4. Multiplication (*)
+5. Modulas (%) hint: returns the reminder
+```
+# Camparision operators
+```
+1. Greater (>)
+2. Lesser (<)
+3. Greaterthan or equalto (>=)
+4. Lesserthan  or equalto (<=)
+5. equals (==)
+6. not equals (!=)
+```
+
+# Logical operators
+```
+1. And (&&)
+2. Or (||)
+```
+
 # conditional statement
 
 - `if statement`
