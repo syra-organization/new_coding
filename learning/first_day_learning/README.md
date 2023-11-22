@@ -39,6 +39,7 @@ ex: var num = 10;
 3. Divistion (/)
 4. Multiplication (*)
 5. Modulas (%) hint: returns the reminder
+6. Power (**) ex: (2**3)
 ```
 # Camparision operators
 ```
