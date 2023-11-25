@@ -3,7 +3,7 @@
 function isDivisibleBy5(num) {
   var i = 1;
   var count = 0;
-  while (i <= 100) {
+  while (i <= num) {
     if (i % 5 == 0) {
       count++;
     }
@@ -11,4 +11,4 @@ function isDivisibleBy5(num) {
   }
   console.log("given counting", count);
 }
-isDivisibleBy5(100)
+isDivisibleBy5(100);
