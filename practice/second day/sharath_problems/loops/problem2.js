@@ -4,7 +4,13 @@
 // output: 1 2 3 4 5
 
 function printInSingleLine(n) {
-    
+  var i = 1;
+
+  while (i <= n) {
+
+    console.log( i);
+    i++;
+  }
 }
 
 printInSingleLine(5);
