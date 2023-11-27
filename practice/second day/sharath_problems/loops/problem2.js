@@ -7,8 +7,7 @@ function printInSingleLine(n) {
   var i = 1;
 
   while (i <= n) {
-
-    console.log( i);
+    console.log(i);
     i++;
   }
 }
