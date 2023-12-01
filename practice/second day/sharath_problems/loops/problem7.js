@@ -4,7 +4,13 @@
 // you need to print 54321
 
 function printReverseOfNumber(num) {
+  var i = num;
 
-}
+    while (i >= 1) {
+       console.log(i);
+       i--;
+     }
+   }
+  
 
-printReverseOfNumber(12345)
+printReverseOfNumber(5);
