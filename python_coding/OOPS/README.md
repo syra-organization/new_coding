@@ -31,3 +31,9 @@ Polymorphism is a term used in Python to refer to an object's ability to take on
 ```
 An abstract class in Python is a class that is marked as abstract using the ABC (Abstract Base Class) module or the @abstractmethod decorator. An abstract class cannot be instantiated directly and is meant to be subclassed by other classes. It may define abstract methods that must be implemented by its subclasses. Abstract classes provide a way to define a common interface for a group of related classes.
 ```
+
+### 4. Encapsulation
+
+```
+Encapsulation is a concept in Python (and other object-oriented languages) that involves bundling the data (attributes) and methods (functions) that operate on the data within a class. It restricts direct access to the internal state of an object and provides methods to interact with the object's data. This helps in hiding the implementation details and preventing unauthorized access to or modification of the object's internal state.
+```
