@@ -4,14 +4,16 @@
 // you need to print 54321
 
 function printReverseOfNumber(num) {
-  var i = num;
+  var bag = "";
 
-  while (i >= 1) {
-    console.log(i);
-    i--;
+  while (num > 0) {
+    var lastnum = num % 10;
+    bag = bag + lastnum;
+    num = Math.floor(num / 10);
   }
+  console.log(Number(bag));
 }
 
-printReverseOfNumber(5);
+printReverseOfNumber(974452);
 
 // changes
