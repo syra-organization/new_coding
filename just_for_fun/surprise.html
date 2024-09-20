@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    body {
+      font-family: "Poppins", sans-serif;
+      font-weight: 1000;
+      font-size: 12px;
+      font-style: normal;
+      background-color: #125b9a;
+      color: #fde9dd;
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .heart {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      background-color: #f05a7e;
+      transform: rotate(-45deg);
+      margin: 50px;
+      display: none;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #f05a7e;
+    }
+
+    .heart::before {
+      top: -100px;
+      left: 0;
+    }
+
+    .heart::after {
+      top: 0;
+      left: 100px;
+    }
+
+    .heart > h1 {
+      position: absolute;
+      z-index: 1;
+      transform: rotate(45deg);
+      top: 50px;
+      left: 35px;
+    }
+
+    /* Define keyframes */
+    @keyframes slidein {
+      0% {
+        transform: translateX(0vw) rotate(-45deg);
+      }
+      50% {
+        transform: translateX(50vw) rotate(-45deg);
+      }
+      100% {
+        transform: translateX(80vw) rotate(-45deg);
+      }
+    }
+  </style>
+  <body>
+    <div>
+      <div class="heart">
+        <h1 class="heart-text">I Love You 😊</h1>
+      </div>
+    </div>
+  </body>
+  <script>
+    let number = 1;
+    let heart = document.querySelector(".heart");
+    heart.style.animation = "0.1s linear 1s infinite alternate slidein";
+
+    setTimeout(() => {
+      heart.style.display = "block";
+      heart.style.opacity = "0";
+      setTimeout(() => {
+        heart.style.opacity = "1";
+      }, 1000);
+    }, 1000);
+
+    // const interval = setInterval(() => {
+    //   number++;
+
+    //   heart.style.animation = `${number / 10}s linear 1s infinite alternate slidein`;
+
+    //   if (number === 5) {
+    //     heart.style.animation = "none";
+    //     document.body.style.justifyContent = "center";
+    //     clearInterval(interval);
+    //   }
+    // }, 2000);
+  </script>
+</html>
